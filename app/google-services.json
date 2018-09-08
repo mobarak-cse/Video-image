@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "787821603482",
+    "firebase_url": "https://blogapp-b4490.firebaseio.com",
+    "project_id": "blogapp-b4490",
+    "storage_bucket": "blogapp-b4490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787821603482:android:7739127af3ff9743",
+        "android_client_info": {
+          "package_name": "com.tariqeeesciencelab.blogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787821603482-07nalbu5k3hnc9lc37l3pkiqsgbburno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tariqeeesciencelab.blogapp",
+            "certificate_hash": "a96280d5e8525fb965bd8fbb7cd5bbf9b98b0b87"
+          }
+        },
+        {
+          "client_id": "787821603482-7u914ulp10gm6v9slt5u5ouv4q94orhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwH9lOQqVhj_qN4YNFyd4D-mi8N9p-Lag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787821603482-7u914ulp10gm6v9slt5u5ouv4q94orhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

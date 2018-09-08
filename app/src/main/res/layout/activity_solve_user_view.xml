@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".SolveUserView">
+
+
+    <cn.jzvd.JZVideoPlayerStandard
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/videoplayer"
+        >
+
+    </cn.jzvd.JZVideoPlayerStandard>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:id="@+id/titleview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Title"
+                android:textColor="@color/titleColor"
+                android:textAlignment="center"
+                android:textSize="22dp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="0dp"
+                android:text="date"
+                android:textColor="@color/dateColor"
+                android:gravity="left"
+                android:id="@+id/dateview"
+                />
+
+            <com.tariqeeesciencelab.blogapp.TouchImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id= "@+id/image_view" />
+
+            <TextView
+                android:id="@+id/desview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="left"
+                android:text="Description"
+                android:textColor="@color/fontColor"
+                android:textSize="16dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ads_banner">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

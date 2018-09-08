@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SolveNewPost">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ProgressBar
+            android:id="@+id/saveProgressid"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <EditText
+            android:id="@+id/edittext_udate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_background"
+
+            android:enabled="false"
+
+            android:hint="Upload Date......"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edittext_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_background"
+            android:digits="0123456789."
+            android:hint="Post Number...."
+            android:inputType="numberDecimal"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edittext_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Title......."
+            android:inputType="textImeMultiLine"
+            android:padding="10dp" />
+
+
+        <EditText
+            android:id="@+id/edittext_desc"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Description............."
+            android:inputType="textMultiLine"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edittext_image"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Image link............."
+            android:inputType="textMultiLine"
+            android:padding="10dp" />
+
+
+        <EditText
+            android:id="@+id/edittext_video"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Video Link............."
+            android:inputType="textMultiLine"
+            android:padding="10dp" />
+
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edittext_background"
+            android:text="save"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

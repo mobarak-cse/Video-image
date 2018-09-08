@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SolveAdminUpdate">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <EditText
+                android:id="@+id/edittext_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_background"
+                android:enabled="false"
+                android:hint="Post Number...."
+                android:padding="10dp" />
+
+
+
+
+            <EditText
+                android:id="@+id/edittext_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_background"
+                android:hint="date......"
+                android:enabled="false"
+                android:padding="10dp" />
+
+
+            <EditText
+                android:id="@+id/edittext_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Title......."
+
+                android:inputType="text"
+                android:padding="10dp" />
+
+
+            <EditText
+                android:id="@+id/edittext_desc"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Description............."
+                android:inputType="textMultiLine"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edittext_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Image............."
+                android:inputType="textMultiLine"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edittext_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Video link............."
+                android:inputType="textMultiLine"
+                android:padding="10dp" />
+
+
+            <Button
+                android:id="@+id/button_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edittext_background"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="#cf0b0b"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
